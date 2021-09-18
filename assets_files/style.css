@@ -18,7 +18,7 @@ p:empty {
 /* background gradient*/
 .btn, .knmow-more-links i::after {
   background-image: -webkit-gradient(linear, right top, left top, from(#0060ff), to(#00ccff));
-  background-image: linear-gradient(270deg, #0060ff 0%, #00ccff 100%);
+  background-image: linear-gradient(270deg, #11b309 0%, #18ff2a85 100%);
 }
 
 .best-it-consulting {
@@ -76,6 +76,7 @@ header .navbar .navbar-nav li a.nav-link > span:before, header .navbar li.active
 
 .feature-box, .contact-section .contact-inner, #more-modal .modal-dialog .modal-content {
   border-radius: 20px;
+  margin-top: 20vh;
 }
 
 .form-control, #exampleModal .close {
@@ -129,9 +130,9 @@ header .navbar .navbar-nav li a.nav-link > span:before, header .navbar li.active
   top: 0;
   height: 100%;
   width: 0px;
-  background: #1e1666;
-  -webkit-transform: skew(-20deg);
-          transform: skew(-20deg);
+  background: #0eba06;
+  -webkit-transform: skew(20deg);
+          transform: skew(20deg);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   z-index: -1;
@@ -141,8 +142,8 @@ header .navbar .navbar-nav li a.nav-link > span:before, header .navbar li.active
 
 .btn.active:after, .btn:hover::after {
   width: 100%;
-  -webkit-transform: skew(-20deg) scale(1.5);
-          transform: skew(-20deg) scale(1.5);
+  -webkit-transform: skew(20deg) scale(1);
+          transform: skew(20deg) scale(1);
   -webkit-transform-origin: left;
           transform-origin: left;
   right: auto;
@@ -150,7 +151,7 @@ header .navbar .navbar-nav li a.nav-link > span:before, header .navbar li.active
 }
 
 .btn.active, .btn:hover {
-  color: #e86e33 !important;
+  color: #000000 !important;
 }
 
 .social-m {
@@ -355,12 +356,12 @@ p {
 
 header {
   display: table;
-  height: 123px;
+  height: 84px;
 }
 
 header .top-bar {
   width: 100%;
-  background: #1e3497;
+  background: #4fd446;
   padding: 5px 0;
   display: table;
 }
@@ -377,7 +378,7 @@ header .top-bar ul li {
 
 header .top-bar ul li a {
   padding: 3px 10px;
-  color: #fff;
+  color: blue;
   font-weight: 400;
   text-decoration: none;
   display: block;
@@ -885,13 +886,14 @@ textarea.form-control {
 }
 
 #carouselExampleCaptions .carousel-item {
-  min-height: 100vh;
+  min-height: 80vh;
   position: relative;
   background: #fff;
 }
 
 #carouselExampleCaptions .carousel-item > img {
   margin-right: -50px;
+  width: 40%;
 }
 
 #carouselExampleCaptions .carousel-item .carousel-caption-div {
@@ -970,7 +972,7 @@ textarea.form-control {
   height: 16px;
   background: transparent;
   opacity: 1;
-  border: 1px solid #1e1666;
+  border: 1px solid #4fd446;
   text-indent: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -986,7 +988,7 @@ textarea.form-control {
 #carouselExampleCaptions .carousel-indicators li span {
   width: 8px;
   height: 8px;
-  background-color: #1e1666;
+  background-color: #4fd446;
   min-width: 8px;
   min-height: 8px;
   display: -webkit-box;
@@ -995,11 +997,11 @@ textarea.form-control {
 }
 
 #carouselExampleCaptions .carousel-indicators li.active {
-  border-color: #e86e33;
+  border-color: #fa4df7;
 }
 
 #carouselExampleCaptions .carousel-indicators li.active span {
-  background-color: #e86e33;
+  background-color: #fa4df7;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -1007,7 +1009,7 @@ textarea.form-control {
     min-height: 720px;
   }
   #carouselExampleCaptions .carousel-item > img {
-    width: 70%;
+    width: 50%;
   }
   #carouselExampleCaptions .carousel-item.slider-2 > img, #carouselExampleCaptions .carousel-item.slider-3 > img {
     margin-right: -50px;
@@ -1596,7 +1598,7 @@ section {
 .profitable-section {
   overflow: hidden;
   padding: 50px 0;
-  background: #1e1666;
+  background: #289e0a;
 }
 
 .profitable-section .heading-block {
@@ -2053,7 +2055,7 @@ section {
 .contact-section .contact-info a {
   font-weight: 600;
   margin-left: 10px;
-  color: #e86e33;
+  color: blue;
   text-decoration: none;
 }
 
@@ -2080,7 +2082,7 @@ section {
 
 .contact-section .contact-inner {
   padding: 50px;
-  background: #1e1666;
+  background: #289e0a;
 }
 
 .contact-section .contact-inner .heading-block h2,
@@ -2233,7 +2235,7 @@ footer ul.social-list .social-links a i {
 
 footer .copyright {
   width: 100%;
-  background: #1e3497;
+  background: #289e0a;
   text-align: center;
   margin: 50px 0 30px;
   padding: 15px;
@@ -2254,7 +2256,7 @@ footer .copyright a {
 }
 
 footer .copyright a:hover {
-  color: #e86e33;
+  color: blue;
 }
 
 @media only screen and (max-width: 991px) {
@@ -3036,49 +3038,49 @@ footer .copyright a:hover {
   }
 }
 
-.welcomes-unique-section {
+.unique-section {
   padding-top: 5vh;
 }
 
-.welcomes-unique-section .mt-7-top {
+.unique-section .mt-7-top {
   margin-top: -70px;
 }
 
-.welcomes-unique-section .row p {
+.unique-section .row p {
   text-align: justify;
 }
 
-.welcomes-unique-section .feature-box {
+.unique-section .feature-box {
   background: rgba(30, 22, 102, 0.1);
   padding: 50px;
 }
 
-.welcomes-unique-section .feature-box h2 {
+.unique-section .feature-box h2 {
   font-size: 30px;
 }
 
-.welcomes-unique-section .feature-box p {
+.unique-section .feature-box p {
   color: #828282;
 }
 
 @media only screen and (max-width: 991px) {
-  .welcomes-unique-section {
+  .unique-section {
     padding-top: 50px;
     text-align: center;
   }
-  .welcomes-unique-section .row p {
+  .unique-section .row p {
     text-align: center;
   }
-  .welcomes-unique-section .mt-7-top {
+  .unique-section .mt-7-top {
     margin-top: 0px;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .welcomes-unique-section {
+  .unique-section {
     text-align: center;
   }
-  .welcomes-unique-section .feature-box {
+  .unique-section .feature-box {
     padding: 15px 15px 5px;
   }
 }
